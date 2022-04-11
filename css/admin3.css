@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+:root {
+    --putih:#ffff;
+    --body:#fef1e6;
+    --text: #201c18;
+    --baground: #39565a;
+    --defaultcolor:#0000;
+    --myfont:'Lucida Sans';
+}
+
+body{
+    background: var(--body);
+}
+.sub{
+    width: 100%;
+    padding: 20px;
+    height: 70px;
+    background: var(--baground);
+}
+
+h3{
+    text-align: center;
+    font-size: 20px;
+    color: var(--putih);
+}
+
+.navbar{
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 0px 1px 2px 1px rgb(163, 163, 163);
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 9;
+}
+.container{
+    margin-top: 20px;
+    width: 90%;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 8px;
+    padding: 20px;
+    background: var(--putih);
+}
+/* useradmin css */
+
+/* akhir */
+
+@media screen and (max-width: 576px) {
+.navbar-toggler{
+    margin-top: -3px;
+    background-color: var(--putih);
+}
+.navbar-collapse{
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 20px;
+    padding: 50px;
+    background-color: var(--putih);
+    transition: all .6s linear;
+}
+
+/* useradmin */
+.col-6{
+    width: auto;
+}
+.col-8{
+    width: auto;
+}
+.col-1{
+    width: 20%;
+}
+/* akhir */
+
+}

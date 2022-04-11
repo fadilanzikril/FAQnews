@@ -1,0 +1,31 @@
+* {
+    font-family: sans-serif;
+}
+
+/* login */
+.bgron_login {
+    background: url(../asset/image/puzzle.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*memberi style pada class panel default*/
+.panel-default {
+    margin-top: auto;
+}
+
+.form-group.last {
+    margin-bottom: 0px;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.br {
+    margin-top: 10px;
+}
+
+/* Akhir login */
